@@ -26,7 +26,8 @@ node {
           }
     }
     stage('Push') {
-          docker.withRegistry('https://registry.gitlab.com', 'reg1') {
+          docker.withRegistry('https://registry.gitlab.com', 'ed89b8b8-1790-4c37-a59b-a5653128940c') {
+
               img.push 'latest'
               img.push()
           }

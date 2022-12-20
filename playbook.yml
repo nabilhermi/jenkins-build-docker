@@ -2,6 +2,6 @@
   hosts: web
   remote_user: root
   tasks:
-    - name: installation de nginix
-      apt: name=git update_cache=yes
+    - name: installation de Mysql
+      apt: name=mysql-server update_cache=yes
 

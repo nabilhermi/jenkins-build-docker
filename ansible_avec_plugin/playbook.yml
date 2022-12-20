@@ -1,0 +1,7 @@
+- name: Installation du serveur
+  hosts: web
+  remote_user: root
+  tasks:
+    - name: installation de nginx
+      apt: name=nginx update_cache=yes
+

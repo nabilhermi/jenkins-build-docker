@@ -1,10 +1,9 @@
 
-- name: install nginx
+- name: install wartest
   hosts: web
   remote_user: root
   become: yes
   roles:
-    - nginx
-
+    - wartest
 
 

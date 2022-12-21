@@ -1,0 +1,10 @@
+
+- name: install nginx
+  hosts: web
+  remote_user: root
+  become: yes
+  roles:
+    - nginx
+
+
+

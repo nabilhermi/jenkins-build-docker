@@ -1,0 +1,3 @@
+il faut executer cette commande unse seule fois 
+docker login registry.gitlab.com -u <votre-compte> -p <votre-token>
+

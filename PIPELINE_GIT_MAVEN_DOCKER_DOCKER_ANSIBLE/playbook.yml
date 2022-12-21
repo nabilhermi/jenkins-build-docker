@@ -1,0 +1,9 @@
+
+- name: install wartest
+  hosts: web
+  remote_user: root
+  become: yes
+  roles:
+    - wartest
+
+
